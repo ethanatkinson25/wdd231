@@ -5,15 +5,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/base-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
     <title>Main Page</title>
+    <script src="scripts/navigation.js" defer></script>
 </head>
 
 <body>
     <header>
-        <h1>Welcome to the Main Page</h1>
+        <img src="images/strava.svg" alt="site logo">
+        <span>Welcome to the Main Page</span>
+        <button id="hamburger-button" class="hamburger-button"></button>
     </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
     <main>
-
+        <section>
+            <h2>About Us</h2>
+            <p>This is the main page of our website. Here you can find various resources and information about our
+                services.</p>
+        </section>
+        <section>
+            <h2>Contact Information</h2>
+            <p>If you have any questions, feel free to reach out to us at</p>
+        </section>
     </main>
     <footer>
         <p>© 2024 Your Company. All rights reserved.</p>

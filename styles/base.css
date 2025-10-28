@@ -1,0 +1,64 @@
+/* Hamburger Icon	☰	&#9776;	\2630
+Close Icon	×	&#215;	\00D7*/
+
+/*Color pallete
+Background: #F7F9F9
+Primary: #601700
+Secondary: #00A676
+Accent: #044389
+#E0D0C1
+
+*/
+
+* {
+    font-family: "Lexend Deca", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F7F9F9;
+}
+
+main,
+nav,
+footer {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 20px auto 44px;
+    padding: 0.5rem 0 0.5rem 1rem;
+    border-bottom: 1px solid grey;
+    column-gap: 1rem;
+    align-items: center;
+}
+
+header img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+header span {
+    font-size: 1.5rem;
+    /* font-weight: 600; */
+}
+
+.hamburger-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hamburger-button::before {
+    content: "\2630";
+    font-size: 1.5rem;
+}
+
+.hamburger-button.show::before {
+    content: "\00D7";
+}

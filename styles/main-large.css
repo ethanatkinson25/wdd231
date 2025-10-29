@@ -1,0 +1,31 @@
+@media only screen and (min-width: 600px) {
+    .hamburger-button {
+        display: none;
+    }
+
+    header {
+        grid-template-columns: 3rem auto;
+    }
+
+    header,
+    main,
+    nav,
+    footer {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .navigation {
+        display: block;
+    }
+
+    .navigation ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .navigation li {
+        list-style: none;
+    }
+}

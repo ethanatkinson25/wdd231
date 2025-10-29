@@ -1,0 +1,122 @@
+/* Main */
+/*Color Pallete:
+
+Background: Black
+Primary: #011502
+Secondary: #104F55
+Accent: #260F26
+Accent 2: #B2BCAA
+
+*/
+
+* {
+    font-family: "Lexend Deca", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Newsreader", serif;
+    background-color: black;
+    color: #fff;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 20px auto 44px;
+    padding: 0.5rem 0 0.5rem 1rem;
+    background-color: #011502;
+    color: #fff;
+    column-gap: 1rem;
+    align-items: center;
+}
+
+header img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+header span {
+    font-size: 1.5rem;
+    /* font-weight: 600; */
+}
+
+.hamburger-button {
+    background: none;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hamburger-button::before {
+    color: #fff;
+    content: "\2630";
+    font-size: 1.5rem;
+}
+
+.hamburger-button.show::before {
+    content: "\00D7";
+}
+
+.navigation {
+    display: none;
+}
+
+.navigation.show {
+    display: block;
+    width: auto;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: #011502;
+    color: #fff;
+}
+
+.navigation.show ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation.show a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navigation.show li {
+    padding: 0.5rem 0;
+}
+
+footer {
+    background-color: #104F55;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.social-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 1rem;
+    width: auto;
+}
+
+.social-footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    text-decoration: none;
+}
+
+.social-footer img {
+    width: 24px;
+    height: 24px;
+}
+
+.social-footer a:hover {
+    background-color: #E0D0C1;
+}

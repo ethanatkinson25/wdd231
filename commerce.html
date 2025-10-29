@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 
 <head>
     <meta charset="UTF-8">
@@ -17,12 +17,12 @@
 <body>
     <header>
         <img src="images/strava.svg" alt="site logo">
-        <span>Welcome to the Main Page</span>
+        <span>Chamber of Commerce</span>
         <button id="hamburger-button" class="hamburger-button"></button>
     </header>
-    <nav>
+    <nav id="nav-bar" class="navigation">
         <ul>
-            <li><a href="index.html">Home</a></li>
+            <li class="current"><a href="commerce.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
@@ -39,7 +39,20 @@
         </section>
     </main>
     <footer>
-        <p>© 2024 Your Company. All rights reserved.</p>
+        <div class="social-footer">
+            <a href="https://www.youtube.com/" target="_blank"><img src="images/youtube.svg" alt="youtube logo"
+                    width="16" height="16"></a>
+            <a href="https://teams.live.com/free" target="_blank"><img src="images/microsoft-teams.svg" alt="teams logo"
+                    width="16" height="16"></a>
+            <a href="www.linkedin.com/in/ethan-atkinson-236a8b334" target="_blank"><img src="images/linkedin.svg"
+                    alt="linkedin logo" width="16" height="16"></a>
+            <a href="https://x.com/" target="_blank"><img src="images/twitter-x.svg" alt="twitter logo" width="16"
+                    height="16"></a>
+            <a href="https://github.com/ethanatkinson25" target="_blank"><img src="images/github.svg" alt="github logo"
+                    width="16" height="16"></a>
+        </div>
+        <p id="copyright"></p>
+        <p id="last-modified"></p>
     </footer>
 </body>
 

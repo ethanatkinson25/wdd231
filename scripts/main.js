@@ -2,7 +2,7 @@ const currentYear = new Date().getFullYear();
 const copyright = document.querySelector('#copyright');
 const lastModified = new Date(document.lastModified);
 const lastModifiedText = document.querySelector('#last-modified');
-const navButton = document.querySelector('#hamburger-button');
+const navButton = document.querySelector('#hamburger');
 const navBar = document.querySelector('#nav-bar');
 
 copyright.textContent = `\u00A9 | Ethan Atkinson | ${currentYear}`;
@@ -93,3 +93,4 @@ const courses = [
     }
 ];
 
+const coursesSection = document.querySelector('#courses-section');

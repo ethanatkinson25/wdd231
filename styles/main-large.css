@@ -28,4 +28,20 @@
     .navigation li {
         list-style: none;
     }
+
+    .navigation a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .info-sections {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 3rem;
+        align-items: start;
+    }
+
+    .about-section {
+        padding-bottom: 51.4%;
+    }
 }

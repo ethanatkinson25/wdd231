@@ -94,3 +94,90 @@ const courses = [
 ];
 
 const coursesSection = document.querySelector('#courses-section');
+let displayCredits = document.querySelector('#credits');
+const allCoursesButton = document.querySelector('#all-courses');
+const wddCoursesButton = document.querySelector('#wdd-courses');
+const cseCoursesButton = document.querySelector('#cse-courses');
+
+let cseCourses = courses.filter(displayCseCourses);
+let wddCourses = courses.filter(displayWddCourses);
+let totalCredits = 0;
+
+
+//Display Functions
+function createCourseCard(course) {
+    const courseCard = document.createElement('div');
+    courseCard.classList.add('course-card');
+
+    const courseTitle = document.createElement('h3');
+    courseTitle.innerHTML = `${course.subject} ${course.number}: ${course.title}`;
+    totalCredits += course.credits;
+    if (course.completed) {
+        const courseCompleted = document.createElement('p');
+        courseCompleted.innerHTML = `Completed: ✓`
+        courseCard.appendChild(courseCompleted);
+    } else {
+        const courseCompleted = document.createElement('p');
+        courseCompleted.innerHTML = `Completed: X`
+        courseCard.appendChild(courseCompleted);
+    }
+    courseCard.appendChild(courseTitle);
+    coursesSection.appendChild(courseCard);
+}
+
+function displayTakenCourses() {
+    courses.forEach((course) => {
+        if (course.completed) {
+            createCourseCard(course);
+        }
+    })
+    displayCredits.textContent = `Total Credits: ${totalCredits}`;
+}
+displayTakenCourses();
+
+
+allCoursesButton.addEventListener('click', () => {
+    totalCredits = 0;
+    coursesSection.innerHTML = '';
+    courses.forEach((course) => {
+        createCourseCard(course);
+    })
+    displayCredits.textContent = `Total Credits: ${totalCredits}`;
+});
+
+wddCoursesButton.addEventListener('click', () => {
+    totalCredits = 0;
+    coursesSection.innerHTML = '';
+    wddCourses.forEach((course) => {
+        createCourseCard(course);
+    })
+    displayCredits.textContent = `Total Credits: ${totalCredits}`;
+});
+
+cseCoursesButton.addEventListener('click', () => {
+    totalCredits = 0;
+    coursesSection.innerHTML = '';
+    cseCourses.forEach((course) => {
+        createCourseCard(course);
+    })
+    displayCredits.textContent = `Total Credits: ${totalCredits}`;
+});
+
+
+//Filter Functions
+// function displayAllCourses() {
+//     coursesSection.innerHTML = '';
+
+// };
+
+function displayWddCourses(element) {
+    if (element.subject === 'WDD') {
+        return element;
+    }
+};
+
+function displayCseCourses(element) {
+    if (element.subject === 'CSE') {
+        return element;
+    }
+}

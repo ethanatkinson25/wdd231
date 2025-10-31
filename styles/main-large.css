@@ -11,7 +11,7 @@
     main,
     nav,
     footer {
-        max-width: 900px;
+        max-width: 65%;
         margin: 0 auto;
     }
 
@@ -43,5 +43,18 @@
 
     .about-section {
         padding-bottom: 51.4%;
+    }
+
+    .course-card h3 {
+        display: flex;
+    }
+
+    .course-section {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .course-card {
+        max-width: 20%;
     }
 }

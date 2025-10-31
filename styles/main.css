@@ -129,6 +129,13 @@ section p {
     margin: auto;
 }
 
+.courses-section {
+    max-width: 95%;
+    margin: 0 auto;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
 .course-buttons {
     display: flex;
     justify-content: space-around;
@@ -139,6 +146,12 @@ section p {
     padding: 0.5rem;
     background-color: #011627;
     color: #fff;
+}
+
+.course-card {
+    display: inline-block;
+    margin: 0.5rem;
+    text-align: center;
 }
 
 

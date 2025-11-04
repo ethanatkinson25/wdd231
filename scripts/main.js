@@ -181,3 +181,6 @@ function displayCseCourses(element) {
         return element;
     }
 }
+
+
+

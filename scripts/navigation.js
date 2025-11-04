@@ -5,7 +5,7 @@ const copyright = document.querySelector('#copyright');
 const lastModified = new Date(document.lastModified);
 const lastModifiedText = document.querySelector('#last-modified');
 
-copyright.textContent = `\u00A9 | ${currentYear}`;
+copyright.textContent = `\u00A9 | Ethan Atkinson | ${currentYear}`;
 
 navButton.addEventListener('click', () => {
     navButton.classList.toggle('show');

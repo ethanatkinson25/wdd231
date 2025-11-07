@@ -133,6 +133,7 @@ footer {
     background-color: var(--secondary-color);
     padding: 1rem 0;
     text-align: center;
+    width: auto;
 }
 
 .social-footer {

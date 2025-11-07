@@ -7,9 +7,6 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/base-large.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
     <meta name="description"
         content="The main page for the WDD231 repository containing links to courses, a final project, and information about the author.">
     <meta property="og:title" content="Directory">
@@ -22,6 +19,9 @@
     <link rel="icon" href="images/faviconcompass.ico">
     <meta name="author" content="Ethan Atkinson">
     <title>Directory</title>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
     <script src="scripts/directory.js" defer></script>
 </head>
 
@@ -40,10 +40,13 @@
         </ul>
     </nav>
     <main>
-        <h2>Company Information</h2>
         <section class="company-info">
-            <button id="grid-button" class="view-button" aria-label="grid">Grid View</button>
-            <button id="list-button" class="view-button" aria-label="list">List View</button>
+            <h2>Company Information</h2>
+            <div class="directory-buttons">
+                <button id="grid-button" class="view-button" aria-label="grid">Grid View</button>
+                <button id="list-button" class="view-button" aria-label="list">List View</button>
+            </div>
+
             <div id="directory-cards" class="grid"></div>
         </section>
     </main>

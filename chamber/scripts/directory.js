@@ -29,7 +29,7 @@ function displayMembers(members) {
 
         card.innerHTML = `
         <h2>${member.name}</h2>
-        <img src="${member.image}" alt="Logo of ${member.name}" loading="lazy" width="200" height="200">
+        <img src="${member.image}" alt="Logo of ${member.name}" width="200" height="200">
         <p>Address: ${member.address}</p>
         <p>Phone Number: ${member.phone}</p>
         <p>Website: ${member.website}</p>

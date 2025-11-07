@@ -10,15 +10,6 @@ async function getProphetsData() {
 
 function displayProphets(prophets) {
     prophets.forEach((prophet) => {
-        // let card = document.createElement('section');
-        // let h2 = document.createElement('h2');
-        // let birthday = document.createElement('p');
-        // let deathDay = document.createElement('p');
-        // let length = document.createElement('p');
-        // let order = document.createElement('p');
-        // let birthplace = document.createElement('p');
-        // let numberOfChildren = document.createElement('p');
-        // let img = document.createElement('img');
         const card = document.createElement('section');
 
         card.innerHTML = `

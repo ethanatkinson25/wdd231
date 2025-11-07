@@ -15,26 +15,28 @@
     <meta property="og:title" content="Directory">
     <meta property="og:description"
         content="The directory page of the Chamber of Commerce website featuring business listings and contact information.">
-    <meta property="og:url" content="directory.html">
+    <meta property="og:url" content="https://ethanatkinson25.github.io/wdd231/chamber/directory.html">
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Directory">
-    <link rel="icon" href="images/faviconCompass.ico">
+    <link rel="icon" href="images/faviconcompass.ico">
     <meta name="author" content="Ethan Atkinson">
     <title>Directory</title>
-    <script src="js/directory.js" defer></script>
+    <script src="scripts/directory.js" defer></script>
 </head>
 
 <body>
     <header>
         <img src="images/strava.svg" alt="site logo">
-        <span>Directory</span>
+        <span>
+            <h1>Directory</h1>
+        </span>
         <button id="hamburger-button" class="hamburger-button"></button>
     </header>
     <nav id="nav-bar" class="navigation">
         <ul>
-            <li class="current"><a href="commerce.html">Home</a></li>
-            <li><a href="directory.html">Directory</a></li>
+            <li><a href="commerce.html">Home</a></li>
+            <li class="current"><a href="directory.html">Directory</a></li>
             <li><a href="join.html">Join</a></li>
             <li><a href="discover.html">Discover</a></li>
         </ul>
@@ -42,7 +44,9 @@
     <main>
         <h2>Company Information</h2>
         <section class="company-info">
-            <div id="directory-cards" class="directory-cards"></div>
+            <button id="grid-button" class="view-button">Grid View</button>
+            <button id="list-button" class="view-button">List View</button>
+            <div id="directory-cards" class="grid"></div>
         </section>
     </main>
     <footer>

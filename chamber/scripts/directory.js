@@ -25,11 +25,11 @@ async function getMembersData() {
 function displayMembers(members) {
     members.forEach((member) => {
         const card = document.createElement('section');
-        card.id = 'directory-card';
+        card.className = 'directory-card';
 
         card.innerHTML = `
         <h2>${member.name}</h2>
-        <img src=${member.image} alt="Logo of ${member.name}" loading="lazy"/>
+        <img src="${member.image}" alt="Logo of ${member.name}" loading="lazy" width="200" height="200">
         <p>Address: ${member.address}</p>
         <p>Phone Number: ${member.phone}</p>
         <p>Website: ${member.website}</p>

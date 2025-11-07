@@ -103,7 +103,7 @@ h1 {
     padding: 0.5rem 0;
 }
 
-#directory-card {
+.directory-card {
     background-color: var(--accent2);
     font-size: smaller;
     padding: 1rem;
@@ -116,6 +116,12 @@ h1 {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 5px;
     align-items: center;
+    text-align: center;
+}
+
+
+.list img {
+    display: none;
 }
 
 section.company-info {

@@ -23,5 +23,15 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
+        list-style: none;
+    }
+
+    .navigation a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .directory-card {
+        max-height: 60rem;
     }
 }

@@ -28,10 +28,8 @@
 <body>
     <header>
         <img src="images/strava.svg" alt="site logo">
-        <span>
-            <h1>Directory</h1>
-        </span>
-        <button id="hamburger-button" class="hamburger-button"></button>
+        <h1><span>Directory</span></h1>
+        <button id="hamburger-button" class="hamburger-button" aria-label="hamburger"></button>
     </header>
     <nav id="nav-bar" class="navigation">
         <ul>
@@ -44,8 +42,8 @@
     <main>
         <h2>Company Information</h2>
         <section class="company-info">
-            <button id="grid-button" class="view-button">Grid View</button>
-            <button id="list-button" class="view-button">List View</button>
+            <button id="grid-button" class="view-button" aria-label="grid">Grid View</button>
+            <button id="list-button" class="view-button" aria-label="list">List View</button>
             <div id="directory-cards" class="grid"></div>
         </section>
     </main>

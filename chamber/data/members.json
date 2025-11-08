@@ -4,25 +4,25 @@
         "address": "77 W 300 N, Suite 204, Ogden, UT",
         "phone": "(385) 555-0220",
         "website": "https://wasatchdigitalstudio.com",
-        "image": "https://ethanatkinson25.github.io/wdd231/chamber/images/wasatchdigital.webp",
+        "image": "images/wasatchdigital.webp",
         "membership_level": 3,
         "info": "Specializes in web design and video production; preferred partner for non-profits."
     },
     {
-        "name": "Summit Hardware Co.",
+        "name": "Summit Hardware & Co.",
         "address": "4128 Ridgeview Way, Salt Lake City, UT 84123",
         "phone": "(801) 555-0142",
         "website": "Website: https://www.summithardware.com",
-        "image": "https://ethanatkinson25.github.io/wdd231/chamber/images/summithardware.webp",
+        "image": "images/summithardware.webp",
         "membership_level": 3,
-        "info": "Open M–F 7:00–18:00; specialty: sustainable building materials."
+        "info": "Open M–F 7:00–18:00; specialty: sustainable building materials, equitable cost."
     },
     {
         "name": "Highline Financial Group",
         "address": "210 Commerce Plaza, Park City, UT 84060",
         "phone": "(435) 555-0333",
         "website": "https://highlinefg.com",
-        "image": "https://ethanatkinson25.github.io/wdd231/chamber/images/highlinefinancial.webp",
+        "image": "images/highlinefinancial.webp",
         "membership_level": 3,
         "info": "- Wealth management and retirement planning; fiduciary advisor; CFP staff on-site."
     },
@@ -31,7 +31,7 @@
         "address": "128 Main St, Clearfield, UT 84015",
         "phone": "(801) 555-0198",
         "website": "https://clearfieldcoffeeroasters.com",
-        "image": "https://ethanatkinson25.github.io/wdd231/chamber/images/clearfieldroasters.webp",
+        "image": "images/clearfieldroasters.webp",
         "membership_level": 1,
         "info": "Local small-batch roaster; wholesale available; hosts monthly cupping events."
     },
@@ -40,7 +40,7 @@
         "address": "340 Industrial Loop, Ogden, UT 84401",
         "phone": "(801) 555-0456",
         "website": "https://rangetechmfg.com",
-        "image": "https://ethanatkinson25.github.io/wdd231/chamber/images/rangetech.webp",
+        "image": "images/rangetech.webp",
         "membership_level": 2,
         "info": "CNC machining and fabrication; ISO 9001 certified; small batch prototyping services."
     },
@@ -49,7 +49,7 @@
         "address": "56 N 500 E, Layton, UT 84041",
         "phone": "(801) 555-0666",
         "website": "https://greatbasinvet.com",
-        "image": "https://ethanatkinson25.github.io/wdd231/chamber/images/veteranaryclinic.webp",
+        "image": "images/veteranaryclinic.webp",
         "membership_level": 1,
         "info": "Emergency hours evenings/weekends; boarding and dental services; accepts major pet insurance."
     },
@@ -58,7 +58,7 @@
         "address": "902 Garden Ave, North Salt Lake, UT 84054",
         "phone": "(801) 555-0788",
         "website": "https://northstarlandscaping.com",
-        "image": "https://ethanatkinson25.github.io/wdd231/chamber/images/northstar.webp",
+        "image": "images/northstar.webp",
         "membership_level": 2,
         "info": "Residential and commercial landscaping; seasonal plant nursery; equipment rental available."
     }

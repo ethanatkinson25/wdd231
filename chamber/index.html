@@ -10,39 +10,51 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
-    <meta name="commerce:url" content="commerce.html">
-    <meta name="commerce:title" content="Chamber of Commerce Webpage">
-    <meta name="commerce:description"
+    <meta name="og:url" content="index.html">
+    <meta name="og:type" content="website">
+    <meta name="og:title" content="Chamber of Commerce Webpage">
+    <meta name="og:description"
         content="The Chamber of Commerce main page containing links to a directory, contact information, and resources.">
-    <meta property="commerce:image" content="images/main-images/front-image.webp">
+    <meta property="og:image" content="images/main-images/front-image.webp">
     <link rel="icon" href="images/favicon.ico">
-    <title>Main Page</title>
-    <script src="js/commerce.js" defer></script>
+    <title>Chamber of Commerce</title>
+    <script src="scripts/commerce.js" defer></script>
 </head>
 
 <body>
     <header>
         <img src="images/strava.svg" alt="site logo">
-        <span>Chamber of Commerce</span>
-        <button id="hamburger-button" class="hamburger-button"></button>
+        <h1><span>Chamber of Commerce</span></h1>
+        <button id="hamburger-button" class="hamburger-button" aria-label="hamburger"></button>
     </header>
     <nav id="nav-bar" class="navigation">
         <ul>
-            <li class="current"><a href="commerce.html">Home</a></li>
+            <li class="current"><a href="index.html">Home</a></li>
             <li><a href="directory.html">Directory</a></li>
             <li><a href="join.html">Join</a></li>
             <li><a href="discover.html">Discover</a></li>
         </ul>
     </nav>
     <main>
+        <section class="hero">
+
+        </section>
         <section>
             <h2>About Us</h2>
             <p>This is the main page of our website. Here you can find various resources and information about our
                 services.</p>
         </section>
-        <section>
-            <h2>Contact Information</h2>
+        <section class="weather">
+            <h2>Weather</h2>
             <p>If you have any questions, feel free to reach out to us at</p>
+        </section>
+        <section class="current-events">
+            <h2>Current Events</h2>
+            <p>Stay updated with the latest news and events happening in our community.</p>
+        </section>
+        <section class="spotlights">
+            <h2>Business Spotlights</h2>
+            <div class="spotlight-cards" id="spotlight-cards"></div>
         </section>
     </main>
     <footer>

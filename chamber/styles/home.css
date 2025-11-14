@@ -33,9 +33,17 @@
         height: auto;
     }
 
-    .weather,
+    .weather {
+        display: inline;
+        text-align: left;
+    }
+
     .spotlights {
-        flex-direction: row;
+        display: inline;
+    }
+
+    .spotlight-cards {
+        display: flex;
     }
 
     .current-events {

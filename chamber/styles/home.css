@@ -1,0 +1,44 @@
+.hero {
+    display: none;
+}
+
+.hero-mobile {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.weather,
+.spotlights {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+@media only screen and (min-width: 600px) {
+    .hero-mobile {
+        display: none;
+    }
+
+    .hero {
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .hero img {
+        width: 100%;
+        height: auto;
+    }
+
+    .weather,
+    .spotlights {
+        flex-direction: row;
+    }
+
+    .current-events {
+        display: block;
+    }
+}

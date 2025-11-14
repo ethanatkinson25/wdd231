@@ -3,7 +3,10 @@ const spotlightSection = document.querySelector('#spotlight-cards');
 async function getMembersData() {
     const response = await fetch('data/members.json');
     const data = await response.json();
-    displayMembers(data);
+    const filtered = data.filter(member => member.membership_level >= 2);
+    const shuffled = shuffleArray(filtered);
+    const selected = shuffled.slice(0, Math.min(2, shuffled.length));
+    displayMembers(selected);
 }
 
 function displayMembers(members) {
@@ -23,5 +26,15 @@ function displayMembers(members) {
         spotlightSection.appendChild(card);
     })
 }
+
+function shuffleArray(arr) {
+    const a = arr.slice();
+    for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+}
+
 
 getMembersData();

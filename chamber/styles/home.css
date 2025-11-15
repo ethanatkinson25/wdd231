@@ -8,6 +8,44 @@
     margin-top: 1rem;
 }
 
+.hero-mobile img {
+    position: relative;
+    width: 90%;
+    height: auto;
+}
+
+.hero-mobile p {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.7);
+    opacity: 0.7;
+    padding: 1rem;
+    margin-top: 15%;
+    text-align: center;
+}
+
+.hero-mobile a {
+    color: black;
+    text-decoration: underline;
+}
+
+.forecast {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+.forecast-day {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+figcaption {
+    text-transform: capitalize;
+}
+
 .weather,
 .spotlights {
     display: flex;
@@ -22,20 +60,41 @@
     }
 
     .hero {
-        display: block;
+        display: inline-block;
         width: 100%;
         margin: 0;
         padding: 0;
     }
 
+    .hero a {
+        color: black;
+        text-decoration: underline;
+    }
+
     .hero img {
         width: 100%;
         height: auto;
+        position: relative;
+    }
+
+    .hero p {
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.7);
+        opacity: 0.7;
+        padding: 3rem;
+        margin-top: -25rem;
+        margin-left: 10rem;
+        font-size: 1.2rem;
     }
 
     .weather {
         display: inline;
         text-align: left;
+    }
+
+    .forecast {
+        flex-direction: row;
+        justify-content: space-around;
     }
 
     .spotlights {

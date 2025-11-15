@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+    <meta name="description"
+        content="The Chamber of Commerce main page containing links to a directory, contact information, and resources.">
     <meta name="og:url" content="index.html">
     <meta name="og:type" content="website">
     <meta name="og:title" content="Chamber of Commerce Webpage">
@@ -41,23 +43,21 @@
     <main>
         <section class="hero-mobile">
             <img src="images/heromobile.webp" alt="hero image" width="300" height="400">
+            <p>Explore your local businessess! <a href="directory.html">Directory</a></p>
         </section>
         <section class="hero">
             <img src="images/hero.webp" alt="hero image">
-        </section>
-        <section>
-            <h2>About Us</h2>
-            <p>This is the main page of our website. Here you can find various resources and information about our
-                services.</p>
+            <p>Explore your local businessess! <a href="directory.html">Directory</a></p>
         </section>
         <section class="weather">
             <h2>Weather</h2>
-            <p id="current-temp"></p>
+            <p>Today's Weather</p>
             <figure>
-                <img id="weather-icon" alt="weather icon">
+                <img id="weather-icon" alt="weather icon" width="75" height="75">
                 <figcaption></figcaption>
             </figure>
-            <div id="forecast"></div>
+            <p id="current-temp"></p>
+            <div id="forecast" class="forecast"></div>
         </section>
         <section class="current-events">
             <h2>Current Events</h2>

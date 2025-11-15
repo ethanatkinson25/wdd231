@@ -42,6 +42,11 @@
     justify-items: center;
 }
 
+figure img {
+    background-color: grey;
+    border-radius: 5px;
+}
+
 figcaption {
     text-transform: capitalize;
 }

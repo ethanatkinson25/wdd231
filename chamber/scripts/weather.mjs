@@ -24,7 +24,7 @@ async function apiFetch() {
 
 function displayResults(data) {
     currentTemp.innerHTML = `${data.main.temp}&deg;F`;
-    const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
+    const iconsrc = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', 'weather icon');
     captionDesc.textContent = `${data.weather[0].description} `;
@@ -38,7 +38,7 @@ function displayForecast(data) {
     for (let i = 0; i < nextThree.length; i++) {
         const item = nextThree[i];
         const date = new Date(item.dt_txt);
-        const iconsrc = `https://openweathermap.org/img/w/${item.weather[0].icon}.png`;
+        const iconsrc = `https://openweathermap.org/img/wn/${item.weather[0].icon}@2x.png`;
         const description = item.weather[0].description;
 
         const temp = `${item.main.temp.toFixed(0)}&deg;F`;

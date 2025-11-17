@@ -163,13 +163,6 @@ cseCoursesButton.addEventListener('click', () => {
     displayCredits.textContent = `Total Credits: ${totalCredits}`;
 });
 
-
-//Filter Functions
-// function displayAllCourses() {
-//     coursesSection.innerHTML = '';
-
-// };
-
 function displayWddCourses(element) {
     if (element.subject === 'WDD') {
         return element;

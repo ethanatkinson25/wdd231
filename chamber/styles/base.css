@@ -174,3 +174,16 @@ footer p {
 header img {
     aspect-ratio: 1 / 1;
 }
+
+dialog {
+    border: none;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 90%;
+}
+
+::backdrop {
+    background: rgba(0, 0, 0, 0.5);
+}

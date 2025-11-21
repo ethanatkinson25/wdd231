@@ -1,0 +1,18 @@
+[
+    {
+        "title": "Non-Profit",
+        "description": "The Non-Profit Tier offers discounted membership rates designed specifically for registered non-profits, making it easier for community organizations to participate. Members at this level receive a basic directory listing with their name and contact information, along with invitations to Chamber mixers, luncheons, and community events. They are also recognized in Chamber communications as valued non-profit contributors to the local business ecosystem."
+    },
+    {
+        "title": "Bronze",
+        "description": "The Bronze Tier provides all standard membership benefits, including full access to Chamber events, workshops, and networking opportunities. Businesses enjoy an enhanced directory profile with their logo, description, and website link, plus support for ribbon cuttings and milestone announcements. Bronze members also benefit from occasional social media promotion through Chamber channels, helping them gain visibility in the community."
+    },
+    {
+        "title": "Silver",
+        "description": "The Silver Tier builds on these benefits with priority visibility in the Chamber directory and newsletters, as well as discounted rates for sponsorships, booths, and advertising at Chamber events. Members gain access to professional development opportunities such as seminars, leadership programs, and training sessions. They are eligible for Chamber awards and spotlight features, and receive invitations to exclusive mid-tier networking groups or committees, further strengthening their connections."
+    },
+    {
+        "title": "Gold",
+        "description": "The Gold Tier delivers premium exposure with top placement in Chamber directories, websites, and publications. Gold members enjoy priority sponsorship opportunities for Chamber events and initiatives, along with invitations to executive roundtables, policy discussions, and VIP networking sessions. Their businesses receive regular promotion across Chamber newsletters, social media, and press releases, positioning them as leading supporters of local business growth and advocacy."
+    }
+]

@@ -18,35 +18,37 @@
     <meta property="og:url" content="https://ethanatkinson25.github.io/wdd231/chamber/directory.html">
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Directory">
+    <meta property="og:site_name" content="Join Us">
     <meta property="og:image" content="https://ethanatkinson25.github.io/wdd231/chamber/images/commons.webp">
     <link rel="icon" href="images/faviconcompass.ico">
     <meta name="author" content="Ethan Atkinson">
-    <title>Directory</title>
-    <script src="scripts/directory.js" defer></script>
+    <title>Join Us</title>
+    <script src="scripts/join.js" defer></script>
+    <script src="scripts/form.mjs" defer></script>
 </head>
 
 <body>
     <header>
         <img src="images/strava.svg" alt="site logo" width="16" height="16">
-        <h1><span>Chamber of Commerce Directory</span></h1>
+        <h1><span>Chamber of Commerce Join</span></h1>
         <button id="hamburger-button" class="hamburger-button" aria-label="hamburger"></button>
     </header>
     <nav id="nav-bar" class="navigation">
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li class="current"><a href="directory.html">Directory</a></li>
-            <li><a href="join.html">Join</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li class="current"><a href="join.html">Join</a></li>
             <li><a href="discover.html">Discover</a></li>
         </ul>
     </nav>
     <main>
         <h1>Join Us!</h1>
-        <section>
+        <section class="join-form">
             <form>
-                <legend>
+                <h2>Memberhsip Form</h2>
+                <!-- <legend>
 
-                </legend>
+                </legend> -->
                 <fieldset>
                     <!--First Name-->
                     <label for="first-name">First Name:</label><br>
@@ -59,7 +61,7 @@
                     <input type="text" name="title" id="title"><br>
                     <!--Email-->
                     <label for="email">Email:</label><br>
-                    <input type="email" name="email" id="email"><br>
+                    <input type="email" name="email" id="email" placeholder="youremailhere@email.com"><br>
                     <!--Phone Number-->
                     <label for="number">Phone Number:</label><br>
                     <input type="tel" name="number" id="number"><br>
@@ -67,17 +69,49 @@
                     <label for="business-name">Company Name:</label><br>
                     <input type="text" name="business-name" id="business-name"><br>
                     <!--Membership Level-->
-                    <label for="membership">Membership Level:</label><br>
-                    <input type="number" name="membership" id="membership"><br>
+                    <p>Membership Level:</p>
+                    <label for="non-profit">Non-Profit</label>
+                    <input type="radio" name="member-status" id="non-profit" value="Non-Profit"><br>
+
+                    <label for="bronze">Bronze</label>
+                    <input type="radio" name="member-status" id="bronze" value="Bronze"><br>
+
+                    <label for="silver">Silver</label>
+                    <input type="radio" name="member-status" id="silver" value="Silver"><br>
+
+                    <label for="gold">Gold</label>
+                    <input type="radio" name="member-status" id="gold" value="Gold"><br>
                     <!--Business Description-->
                     <label for="buisness-description">Business Description:</label><br>
-                    <textarea name="buisness-description" id="buisness-description"></textarea><br>
+                    <textarea name="buisness-description" id="buisness-description"
+                        placeholder="Enter your description here"></textarea><br>
                     <!--Timestamp (Hidden)-->
                     <input type="hidden" id="timestamp" name="timestamp">
                     <!--Submit Button-->
-                    <input type="submit">
+                    <input type="submit" value="Join">
                 </fieldset>
             </form>
+
+
+            <aside class="membership-cards">
+                <h2>Membership Levels</h2>
+                <div class="membership">
+                    <h3>Non-Profit Membership</h3>
+                    <button id="non-profit-button" aria-label="non-profit">Non-Profit</button>
+                </div>
+                <div class="membership">
+                    <h3>Bronze Membership</h3>
+                    <button id="bronze-button" aria-label="bronze-button">Bronze</button>
+                </div>
+                <div class="membership">
+                    <h3>Silver Membership</h3>
+                    <button id="silver-button" aria-label="silver-button">Silver</button>
+                </div>
+                <div class="membership">
+                    <h3>Gold Membership</h3>
+                    <button id="gold-button" aria-label="gold-button">Gold</button>
+                </div>
+            </aside>
         </section>
     </main>
     <footer>
@@ -96,6 +130,12 @@
         <p id="copyright">© | Ethan Atkinson | WDD231 | 2025</p>
         <p id="last-modified">Last Modified: —</p>
     </footer>
+
+    <dialog id="membership-modal">
+        <h4 id="membership-title"></h4>
+        <p id="membership-description"></p>
+        <button id="closeModal">Close</button>
+    </dialog>
 </body>
 
 </html>

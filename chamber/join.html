@@ -46,21 +46,22 @@
             <form method="get" action="thankyou.html">
                 <h2>Memberhsip Form</h2>
                 <fieldset>
-                    <label for="first-name">First Name:</label><br>
-                    <input type="text" name="first-name" id="first-name" autocomplete="given-name"><br>
+                    <label for="first-name">First Name*:</label><br>
+                    <input type="text" name="first-name" id="first-name" autocomplete="given-name" required><br>
 
-                    <label for="last-name">Last Name:</label><br>
-                    <input type="text" name="last-name" id="last-name" autocomplete="family-name"><br>
+                    <label for="last-name">Last Name*:</label><br>
+                    <input type="text" name="last-name" id="last-name" autocomplete="family-name" required><br>
 
                     <label for="title">Employee Title:</label><br>
-                    <input type="text" name="title" id="title"><br>
+                    <input type="text" name="title" id="title" pattern="[A-Za-z\- ]{7,}"
+                        title="At least 7 letters, spaces, or hyphens"><br>
 
                     <label for="email">Email*:</label><br>
                     <input type="email" name="email" id="email" placeholder="youremailhere@email.com"
                         autocomplete="email" required><br>
 
                     <label for="number">Phone Number:</label><br>
-                    <input type="tel" name="number" id="number"><br>
+                    <input type="tel" name="number" id="number" required><br>
 
                     <label for="business-name">Company Name:</label><br>
                     <input type="text" name="business-name" id="business-name" autocomplete="organization-title"><br>

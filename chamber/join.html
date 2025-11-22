@@ -46,11 +46,11 @@
             <form method="get" action="thankyou.html">
                 <h2>Memberhsip Form</h2>
                 <fieldset>
-                    <label for="first-name">First Name*:</label><br>
+                    <label for="first-name">First Name:*</label><br>
                     <input type="text" name="first-name" id="first-name" autocomplete="given-name"
                         pattern="[A-Za-z\- ]{3,}" title="At least 3 letters, spaces, or hyphens" required><br>
 
-                    <label for="last-name">Last Name*:</label><br>
+                    <label for="last-name">Last Name:*</label><br>
                     <input type="text" name="last-name" id="last-name" autocomplete="family-name"
                         pattern="[A-Za-z\- ]{7,}" title="At least 3 letters, spaces, or hyphens" required><br>
 
@@ -58,18 +58,18 @@
                     <input type="text" name="title" id="title" pattern="[A-Za-z\- ]{7,}"
                         title="At least 7 letters, spaces, or hyphens" autocomplete="organization-title"><br>
 
-                    <label for="email">Email*:</label><br>
+                    <label for="email">Email:*</label><br>
                     <input type="email" name="email" id="email" placeholder="youremailhere@email.com"
                         autocomplete="email" pattern="[A-Za-z0-9._%+ -]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}"
                         title="Enter a valid email address" required><br>
 
-                    <label for="number">Phone Number:</label><br>
+                    <label for="number">Phone Number:*</label><br>
                     <input type="tel" name="number" id="number" pattern="^\+?[0-9\s\-()]{10,}$"
                         title="At least 10 numbers" autocomplete="tel" required><br>
 
-                    <label for="business-name">Company Name:</label><br>
+                    <label for="business-name">Company Name:*</label><br>
                     <input type="text" name="business-name" id="business-name" pattern="[A-Za-z\- ]{4,}"
-                        title="At least 4 letters, spaces, or hyphens" autocomplete="organization"><br>
+                        title="At least 4 letters, spaces, or hyphens" autocomplete="organization" required><br>
 
                     <p>Membership Level:</p>
                     <label for="non-profit">Non-Profit</label>

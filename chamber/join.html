@@ -43,26 +43,27 @@
     <main>
         <h1>Join Us!</h1>
         <section class="join-form">
-            <form>
+            <form method="get" action="thankyou.html">
                 <h2>Memberhsip Form</h2>
                 <fieldset>
                     <label for="first-name">First Name:</label><br>
-                    <input type="text" name="first-name" id="first-name"><br>
+                    <input type="text" name="first-name" id="first-name" autocomplete="given-name"><br>
 
                     <label for="last-name">Last Name:</label><br>
-                    <input type="text" name="last-name" id="last-name"><br>
+                    <input type="text" name="last-name" id="last-name" autocomplete="family-name"><br>
 
                     <label for="title">Employee Title:</label><br>
                     <input type="text" name="title" id="title"><br>
 
                     <label for="email">Email:</label><br>
-                    <input type="email" name="email" id="email" placeholder="youremailhere@email.com"><br>
+                    <input type="email" name="email" id="email" placeholder="youremailhere@email.com"
+                        autocomplete="email"><br>
 
                     <label for="number">Phone Number:</label><br>
                     <input type="tel" name="number" id="number"><br>
 
                     <label for="business-name">Company Name:</label><br>
-                    <input type="text" name="business-name" id="business-name"><br>
+                    <input type="text" name="business-name" id="business-name" autocomplete="organization-title"><br>
 
                     <p>Membership Level:</p>
                     <label for="non-profit">Non-Profit</label>

@@ -23,8 +23,7 @@
     <link rel="icon" href="images/faviconcompass.ico">
     <meta name="author" content="Ethan Atkinson">
     <title>Join Us</title>
-    <script src="scripts/join.js" defer></script>
-    <script src="scripts/form.mjs" defer></script>
+    <script type="module" src="scripts/join.js"></script>
 </head>
 
 <body>
@@ -46,29 +45,25 @@
         <section class="join-form">
             <form>
                 <h2>Memberhsip Form</h2>
-                <!-- <legend>
-
-                </legend> -->
                 <fieldset>
-                    <!--First Name-->
                     <label for="first-name">First Name:</label><br>
                     <input type="text" name="first-name" id="first-name"><br>
-                    <!--Last Name-->
+
                     <label for="last-name">Last Name:</label><br>
                     <input type="text" name="last-name" id="last-name"><br>
-                    <!--Company Title-->
+
                     <label for="title">Employee Title:</label><br>
                     <input type="text" name="title" id="title"><br>
-                    <!--Email-->
+
                     <label for="email">Email:</label><br>
                     <input type="email" name="email" id="email" placeholder="youremailhere@email.com"><br>
-                    <!--Phone Number-->
+
                     <label for="number">Phone Number:</label><br>
                     <input type="tel" name="number" id="number"><br>
-                    <!--Business Name-->
+
                     <label for="business-name">Company Name:</label><br>
                     <input type="text" name="business-name" id="business-name"><br>
-                    <!--Membership Level-->
+
                     <p>Membership Level:</p>
                     <label for="non-profit">Non-Profit</label>
                     <input type="radio" name="member-status" id="non-profit" value="Non-Profit"><br>
@@ -81,14 +76,14 @@
 
                     <label for="gold">Gold</label>
                     <input type="radio" name="member-status" id="gold" value="Gold"><br>
-                    <!--Business Description-->
+
                     <label for="buisness-description">Business Description:</label><br>
                     <textarea name="buisness-description" id="buisness-description"
                         placeholder="Enter your description here"></textarea><br>
-                    <!--Timestamp (Hidden)-->
+
                     <input type="hidden" id="timestamp" name="timestamp">
-                    <!--Submit Button-->
-                    <input type="submit" value="Join">
+
+                    <input type="submit" id="submit-button" value="Join">
                 </fieldset>
             </form>
 

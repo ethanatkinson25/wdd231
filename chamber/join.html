@@ -61,19 +61,20 @@
 
                     <label for="email">Email*:</label><br>
                     <input type="email" name="email" id="email" placeholder="youremailhere@email.com"
-                        autocomplete="email" pattern="[A-Za-z\- ]{4,}" title="At least 4 letters, spaces, or hyphens"
-                        required><br>
+                        autocomplete="email" pattern="[A-Za-z0-9._%+ -]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}"
+                        title="Enter a valid email address" required><br>
 
                     <label for="number">Phone Number:</label><br>
-                    <input type="tel" name="number" id="number" pattern="[A-Za-z\- ]{10,}" title="At least 10 numbers"
-                        required><br>
+                    <input type="tel" name="number" id="number" pattern="^\+?[0-9\s\-()]{10,}$"
+                        title="At least 10 numbers" autocomplete="tel" required><br>
 
                     <label for="business-name">Company Name:</label><br>
-                    <input type="text" name="business-name" id="business-name" autocomplete="organization"><br>
+                    <input type="text" name="business-name" id="business-name" pattern="[A-Za-z\- ]{4,}"
+                        title="At least 4 letters, spaces, or hyphens" autocomplete="organization"><br>
 
                     <p>Membership Level:</p>
                     <label for="non-profit">Non-Profit</label>
-                    <input type="radio" name="member-status" id="non-profit" value="Non-Profit"><br>
+                    <input type="radio" name="member-status" id="non-profit" value="Non-Profit" required><br>
 
                     <label for="bronze">Bronze</label>
                     <input type="radio" name="member-status" id="bronze" value="Bronze"><br>

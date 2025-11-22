@@ -48,22 +48,25 @@
                 <fieldset>
                     <label for="first-name">First Name*:</label><br>
                     <input type="text" name="first-name" id="first-name" autocomplete="given-name"
-                        title="At least 3 letters, spaces, or hyphens" required><br>
+                        pattern="[A-Za-z\- ]{3,}" title="At least 3 letters, spaces, or hyphens" required><br>
 
                     <label for="last-name">Last Name*:</label><br>
                     <input type="text" name="last-name" id="last-name" autocomplete="family-name"
-                        title="At least 3 letters, spaces, or hyphens" required><br>
+                        pattern="[A-Za-z\- ]{7,}" title="At least 3 letters, spaces, or hyphens" required><br>
 
                     <label for="title">Employee Title:</label><br>
                     <input type="text" name="title" id="title" pattern="[A-Za-z\- ]{7,}"
-                        title="At least 7 letters, spaces, or hyphens" autocomplete="organization-title"><br>
+                        title="At least 7 letters, spaces, or hyphens" pattern="[A-Za-z\- ]{7,}"
+                        autocomplete="organization-title"><br>
 
                     <label for="email">Email*:</label><br>
                     <input type="email" name="email" id="email" placeholder="youremailhere@email.com"
-                        autocomplete="email" title="At least 4 letters, spaces, or hyphens" required><br>
+                        autocomplete="email" pattern="[A-Za-z\- ]{4,}" title="At least 4 letters, spaces, or hyphens"
+                        required><br>
 
                     <label for="number">Phone Number:</label><br>
-                    <input type="tel" name="number" id="number" title="At least 10 numbers" required><br>
+                    <input type="tel" name="number" id="number" pattern="[A-Za-z\- ]{10,}" title="At least 10 numbers"
+                        required><br>
 
                     <label for="business-name">Company Name:</label><br>
                     <input type="text" name="business-name" id="business-name" autocomplete="organization"><br>

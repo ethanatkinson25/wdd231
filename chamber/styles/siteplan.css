@@ -1,3 +1,19 @@
 * {
     font-family: 'Enriqueta', serif;
+    background-color: black;
+    color: #fff;
+}
+
+/*Color Pallete*/
+/*#1E000E
+#823038
+#104547*/
+
+
+
+footer {
+    background-color: #1E000E;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
 }

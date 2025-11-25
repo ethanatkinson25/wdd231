@@ -1,18 +1,59 @@
 * {
     font-family: 'Enriqueta', serif;
-    background-color: black;
-    color: #fff;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 /*Color Pallete*/
 /*#1E000E
 #823038
-#104547*/
+#104547
+#656256
+#230903
+#283F3B
+#545454*/
 
+body {
+    font-family: 'Enriqueta', serif;
+    background-color: black;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
 
+header {
+    background-color: #283F3B;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    background-color: #283F3B;
+}
+
+h2 {
+    margin: 1rem;
+}
+
+h3 {
+    margin: 1rem;
+}
+
+p {
+    margin: 1rem;
+}
+
+section {
+    background-color: #545454;
+    color: #fff;
+    padding: 1rem;
+    margin: 2rem;
+}
 
 footer {
-    background-color: #1E000E;
+    background-color: #230903;
     color: #fff;
     text-align: center;
     padding: 1rem 0;

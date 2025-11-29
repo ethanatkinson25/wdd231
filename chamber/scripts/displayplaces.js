@@ -18,27 +18,20 @@ navButton.addEventListener('click', () => {
 
 lastModifiedText.textContent = `Last Modified: ${lastModified}`;
 
-const directoryCards = document.getElementById('directory-cards');
-
-async function getMembersData() {
-    const response = await fetch('data/members.json');
-    const data = await response.json();
-    displayMembers(data);
-}
+const placesSection = document.querySelector('.places-section');
 
 function displayMembers(data) {
     data.forEach(member => {
         const card = document.createElement("div");
-        // const photo = document.createElement("img");
-        // photo.src = `${member.photo_url}`;
         card.innerHTML = `
-            <h2>${member.name}/h2>
-            <img src="${member.photo_url}" alt="photo of ${member.name}"
+            <h2>${member.name}</h2>
+            <img src="${member.photo_url}" alt="photo of ${member.name}" />
             <p>${member.address}</p>
             <p>Price: ${member.cost}</p>
             <p>${member.description}</p>
         `
+        placesSection.appendChild(card);
     });
 }
 
-getMembersData();
+displayMembers(places);

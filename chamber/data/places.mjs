@@ -4,7 +4,7 @@ export const places = [
         "address": "347 22nd St, Ogden, UT 84401",
         "cost": "Children (2–12) $12, Adults/Teens $6, Under 2 Free",
         "description": "Hands-on museum where kids 'step into a story' with interactive exhibits focused on literature and arts.",
-        "photo_url": "https://www.visitogden.com/directory/treehouse-childrens-museum.webp"
+        "photo_url": "../chamber/images/treehouse.webp"
     },
     {
         "name": "Toad's Fun Zone",

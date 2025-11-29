@@ -25,3 +25,20 @@ async function getMembersData() {
     const data = await response.json();
     displayMembers(data);
 }
+
+function displayMembers(data) {
+    data.forEach(member => {
+        const card = document.createElement("div");
+        // const photo = document.createElement("img");
+        // photo.src = `${member.photo_url}`;
+        card.innerHTML = `
+            <h2>${member.name}/h2>
+            <img src="${member.photo_url}" alt="photo of ${member.name}"
+            <p>${member.address}</p>
+            <p>Price: ${member.cost}</p>
+            <p>${member.description}</p>
+        `
+    });
+}
+
+getMembersData();

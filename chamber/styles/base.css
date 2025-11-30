@@ -215,6 +215,79 @@ fieldset {
     animation-duration: 1.5s;
 }
 
+.places-section {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.places-section div {
+    margin: 0;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 0.75rem;
+    background: #fff;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "image"
+        "name"
+        "address"
+        "description"
+        "cost"
+        "button";
+    gap: 0.5rem 1rem;
+    align-items: center;
+}
+
+.places-section div img {
+    grid-area: image;
+    width: 100%;
+    max-width: 160px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.places-section div h2 {
+    grid-area: name;
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.places-section div address {
+    grid-area: address;
+    margin: 0;
+    color: #444;
+    font-style: normal;
+}
+
+.places-section div p.member-description {
+    grid-area: description;
+    margin: 0;
+    line-height: 1.4;
+}
+
+.places-section div p.cost {
+    grid-area: cost;
+    margin: 0.25rem 0 0 0;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.places-section div button {
+    grid-area: button;
+    justify-self: start;
+    padding: 0.4rem 0.8rem;
+    border-radius: 6px;
+    border: none;
+    background: var(--accent);
+    color: #fff;
+    cursor: pointer;
+}
+
 @keyframes slide-in {
     from {
         opacity: 0;

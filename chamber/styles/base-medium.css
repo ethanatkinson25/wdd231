@@ -1,0 +1,23 @@
+@media only screen and (min-width: 400px) {
+    .places-section {
+        gap: 3rem;
+    }
+
+    .places-section div {
+        grid-template-columns: 200px 1fr;
+        grid-template-areas:
+            "image name"
+            "image address"
+            "image description"
+            "image cost"
+            "image button";
+    }
+
+    .places-section div h2 {
+        margin: 0;
+    }
+
+    .places-section div p {
+        margin: 0.5rem 0;
+    }
+}

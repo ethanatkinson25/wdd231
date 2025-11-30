@@ -1,4 +1,4 @@
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 900px) {
     .hamburger-button {
         display: none;
     }
@@ -53,5 +53,15 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 2rem;
+    }
+
+    .places-section div {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "name image"
+            "address image"
+            "description image"
+            "cost image"
+            "button image";
     }
 }

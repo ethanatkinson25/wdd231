@@ -11,7 +11,7 @@ export const places = [
         "address": "1690 W 400 N, Ogden, UT 84404",
         "cost": "Value passes start at $18",
         "description": "Indoor/outdoor family fun center with go-karts, laser tag, batting cages, arcade, and mini golf.",
-        "photo_url": "https://ethanatkinson25.github.io/wdd231/chamber/images/"
+        "photo_url": "https://ethanatkinson25.github.io/wdd231/chamber/images/funzone.webp"
     },
     {
         "name": "George S. Eccles Dinosaur Park",

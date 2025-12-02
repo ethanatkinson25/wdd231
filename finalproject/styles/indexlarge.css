@@ -16,10 +16,28 @@
         margin: 0 auto;
     }
 
+    .hero-section {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
     .hero-section img {
         display: block;
         width: 100%;
         height: auto;
+        position: relative;
+    }
+
+    .hero-section-text {
+        position: absolute;
+        color: white;
+        top: 20%;
+        margin-left: 1rem;
+        background-color: black;
+        opacity: 0.9;
+        padding: 1rem;
+        border-radius: 8px;
     }
 
     .hero-mobile-section {

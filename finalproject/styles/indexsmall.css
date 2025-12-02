@@ -7,11 +7,16 @@
 body {
     background-color: black;
     color: #fff;
+    font-family: 'Enriqueta', serif;
 }
 
-.hero-section img {
+.hero-section {
     display: none;
 }
+
+/* .hero-section img {
+    display: none;
+} */
 
 .hamburger-button {
     background: none;

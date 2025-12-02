@@ -30,3 +30,32 @@ body {
 .hamburger-button.show::before {
     content: "\00D7";
 }
+
+.navigation {
+    display: none;
+}
+
+.navigation.show {
+    display: block;
+    width: auto;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.navigation.show ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation.show a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navigation.show li {
+    padding: 0.5rem 0;
+}

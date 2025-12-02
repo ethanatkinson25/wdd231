@@ -15,27 +15,31 @@
     <meta property="og:description"
         content="The Chamber of Commerce main page containing links to a directory, contact information, and resources.">
     <meta property="og:image" content="https://ethanatkinson25.github.io/wdd231/images/hero.webp">
-    <title>Vertex Hardware Solutions - Home</title>
+    <title>Vertex Hardware - Home</title>
     <link rel="icon" type="image/x-icon" href="images/favicons/favicon.ico">
     <script src="scripts/footer.js" defer></script>
 </head>
 
 <body>
     <header>
-        <h1><span>Vertex Hardware Solutions</span></h1>
+        <h1><span>Vertex Hardware</span></h1>
         <button id="hamburger-button" class="hamburger-button" aria-label="hamburger"></button>
+        <nav class="navigation" id="nav-bar">
+            <ul>
+                <li class="current"><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="buy.html">Buy</a></li>
+            </ul>
+        </nav>
         <div class="hero-section">
-            <!--Hero image goes here-->
             <img src="images/homeimages/herodesktop.webp" alt="close up of a circut board">
+            <p class="calltoaction-desktop"></p>
+        </div>
+        <div class="hero-mobile-section">
+            <img src="images/homeimages/hexagons.webp" alt="hexagon pattern">
+            <p class="calltoaction-mobile"></p>
         </div>
     </header>
-    <nav class="navigation" id="nav-bar">
-        <ul>
-            <li class="current"><a href="index.html">Home</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="buy.html">Buy</a></li>
-        </ul>
-    </nav>
     <main>
         <div class="sections">
             <section class="products">
@@ -48,15 +52,13 @@
     </main>
     <footer>
         <div class="social-footer">
-            <a href="https://www.youtube.com/" target="_blank"><img src="images/youtube.svg" alt="youtube logo"
-                    width="16" height="16"></a>
-            <a href="https://teams.live.com/free" target="_blank"><img src="images/microsoft-teams.svg" alt="teams logo"
-                    width="16" height="16"></a>
-            <a href="www.linkedin.com/in/ethan-atkinson-236a8b334" target="_blank"><img src="images/linkedin.svg"
+            <a href="www.linkedin.com/in/ethan-atkinson-236a8b334" target="_blank"><img src="images/svgs/linkedin.svg"
                     alt="linkedin logo" width="16" height="16"></a>
-            <a href="https://x.com/" target="_blank"><img src="images/twitter-x.svg" alt="twitter logo" width="16"
-                    height="16"></a>
-            <a href="https://github.com/ethanatkinson25" target="_blank"><img src="images/github.svg" alt="github logo"
+            <a href="https://github.com/ethanatkinson25" target="_blank"><img src="images/svgs/github.svg"
+                    alt="github logo" width="16" height="16"></a>
+            <a href="https://instagram.com" target="_blank"><img src="images/svgs/instagram.svg" alt="instagram logo"
+                    width="16" height="16"></a>
+            <a href="https://youtube.com" target="_blank"><img src="images/svgs/youtube.svg" alt="youtube logo"
                     width="16" height="16"></a>
         </div>
         <p id="copyright"></p>

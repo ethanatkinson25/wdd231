@@ -59,3 +59,7 @@ body {
 .navigation.show li {
     padding: 0.5rem 0;
 }
+
+.social-footer img {
+    color: #fff;
+}

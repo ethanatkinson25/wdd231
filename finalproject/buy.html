@@ -40,7 +40,26 @@
         </nav>
     </header>
     <main>
+        <form>
+            <fieldset>
+                <legend>Purchase Form (required questions are marked with a *)</legend>
+                <label for="product-select">Select Product:</label>
+                <select id="product-select" name="product-select">
+                    <option value="">--Please choose an option--</option>
+                </select>
 
+                <label for="quantity">Quantity: *</label>
+                <input type="number" id="quantity" name="quantity" min="1" value="1" required>
+
+                <label for="buyer-name">Name: *</label>
+                <input type="text" id="buyer-name" name="buyer-name" required>
+
+                <label for="buyer-email">Email: *</label>
+                <input type="email" id="buyer-email" name="buyer-email" required>
+
+                <button type="submit">Buy Now</button>
+            </fieldset>
+        </form>
     </main>
     <footer>
         <div class="social-footer">

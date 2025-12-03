@@ -10,13 +10,39 @@ body {
     font-family: 'Enriqueta', serif;
 }
 
+.top-bar {
+    display: flex;
+    justify-content: space-around;
+}
+
 .hero-section {
     display: none;
 }
 
-/* .hero-section img {
-    display: none;
-} */
+.hero-mobile-section {
+    display: block;
+    width: 100%;
+    height: auto;
+    animation-name: fade-in;
+    animation-duration: 3s;
+}
+
+.hero-mobile-section img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.mobile-section-text {
+    position: absolute;
+    color: white;
+    top: 20%;
+    background-color: black;
+    opacity: 0.9;
+    padding: 1rem;
+    border-radius: 8px;
+}
 
 .hamburger-button {
     background: none;
@@ -65,6 +91,51 @@ body {
     padding: 0.5rem 0;
 }
 
+.sections {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+    animation-name: fade-in;
+    animation-duration: 3s;
+}
+
+.products {
+    background-image: url("https://raw.githubusercontent.com/ethanatkinson25/wdd231/main/finalproject/images/homeimages/pipes.webp");
+    padding: 1rem;
+}
+
+.partners {
+    background-image: url("https://raw.githubusercontent.com/ethanatkinson25/wdd231/main/finalproject/images/homeimages/serverroom.webp");
+    padding: 1rem;
+}
+
+.social-footer {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+footer {
+    margin: 1rem;
+    text-align: center;
+}
+
 .social-footer img {
     color: #fff;
+}
+
+.social-footer a {
+    padding: 1rem;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }

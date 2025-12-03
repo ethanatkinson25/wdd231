@@ -1,0 +1,74 @@
+[
+    {
+        "name": "AetherCore X1 GPU",
+        "price": "$1,499",
+        "performance": "Ultra-high (8K gaming, real-time ray tracing)",
+        "description": "A flagship graphics processor built for immersive gaming and cinematic rendering with advanced photon simulation cores."
+    },
+    {
+        "name": "QuantumForge Q9 CPU",
+        "price": "$899",
+        "performance": "High (20 cores, 40 threads, multitasking powerhouse)",
+        "description": "A next-gen desktop processor designed for creators and gamers, balancing raw speed with energy efficiency."
+    },
+    {
+        "name": "NeuroMatrix A200 AI Accelerator",
+        "price": "$6,999",
+        "performance": "Extreme (AI training, deep learning workloads)",
+        "description": "A specialized accelerator card optimized for neural network training, offering breakthrough tensor throughput."
+    },
+    {
+        "name": "Solaris Edge S5 Embedded Module",
+        "price": "$499",
+        "performance": "Mid-range (IoT, robotics, edge inference)",
+        "description": "Compact AI module for drones, smart cameras, and robotics, with low power consumption and high inference speed."
+    },
+    {
+        "name": "TitaniumWave W7 Workstation GPU",
+        "price": "$2,199",
+        "performance": "Professional (CAD, 3D rendering, simulations)",
+        "description": "A workstation-class graphics card engineered for architects, engineers, and animators needing precision rendering."
+    },
+    {
+        "name": "ChronosDrive C1 Storage Accelerator",
+        "price": "$799",
+        "performance": "High (ultra-fast NVMe throughput)",
+        "description": "A PCIe-based storage accelerator that reduces latency in data-heavy workflows like video editing and scientific computing."
+    },
+    {
+        "name": "HelixCore H12 Hybrid Processor",
+        "price": "$1,099",
+        "performance": "Balanced (CPU+GPU fusion for mixed workloads)",
+        "description": "A hybrid chip combining CPU and GPU cores on a single die, ideal for AI-enhanced productivity and gaming."
+    },
+    {
+        "name": "SpectraVision V3 AR/VR Headset",
+        "price": "$699",
+        "performance": "High (immersive AR/VR experiences)",
+        "description": "A lightweight headset with ultra-low latency rendering and eye-tracking for realistic augmented and virtual reality."
+    },
+    {
+        "name": "PulseGrid P100 Data Center Switch",
+        "price": "$4,499",
+        "performance": "Enterprise (high-bandwidth networking)",
+        "description": "A next-gen data center switch optimized for GPU clusters, delivering ultra-low latency and massive throughput."
+    },
+    {
+        "name": "CryoFlux CF9 Cooling System",
+        "price": "$349",
+        "performance": "Efficient (liquid cooling, thermal stability)",
+        "description": "An advanced cooling solution using nano-fluid technology to keep high-performance chips stable under heavy loads."
+    },
+    {
+        "name": "NovaStream N1 Cloud Console",
+        "price": "$249",
+        "performance": "Consumer (cloud gaming, streaming)",
+        "description": "A compact console that streams ultra-high fidelity games from the cloud with AI-enhanced upscaling."
+    },
+    {
+        "name": "LuminaCore L5 AI Laptop Chip",
+        "price": "$599",
+        "performance": "Mid-range (AI-enhanced productivity)",
+        "description": "A mobile processor with integrated AI cores for intelligent applications, battery optimization, and enhanced user experiences."
+    }
+]

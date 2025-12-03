@@ -49,6 +49,7 @@
 
     .navigation {
         display: block;
+        margin-bottom: 1rem;
     }
 
     .navigation ul {
@@ -59,8 +60,9 @@
     }
 
     .navigation a {
-        color: black;
+        color: #fff;
         text-decoration: none;
+        padding: 1rem;
     }
 
     .sections {

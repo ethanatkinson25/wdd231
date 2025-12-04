@@ -5,7 +5,7 @@
         "performance": "Ultra-high (8K gaming, real-time ray tracing)",
         "description": "A flagship graphics processor built for immersive gaming and cinematic rendering with advanced photon simulation cores.",
         "long_description": "The AetherCore X1 GPU is engineered for enthusiasts who demand uncompromising performance. Featuring advanced photon simulation cores, it enables real-time ray tracing and smooth 8K gaming experiences. Its architecture is optimized for cinematic rendering, making it ideal for both gamers and digital content creators seeking lifelike visuals.",
-        "image": ""
+        "image": "images/productimages/graphicscard.webp"
     },
     {
         "name": "QuantumForge Q9 CPU",
@@ -13,7 +13,7 @@
         "performance": "High (20 cores, 40 threads, multitasking powerhouse)",
         "description": "A next-gen desktop processor designed for creators and gamers, balancing raw speed with energy efficiency.",
         "long_description": "The QuantumForge Q9 CPU delivers exceptional multitasking capabilities with 20 cores and 40 threads. Built for creators and gamers, it balances raw computational speed with energy efficiency, ensuring smooth performance across demanding workloads such as video editing, 3D rendering, and competitive gaming.",
-        "image": ""
+        "image": "images/productimages/cpu.webp"
     },
     {
         "name": "NeuroMatrix A200 AI Accelerator",
@@ -21,7 +21,7 @@
         "performance": "Extreme (AI training, deep learning workloads)",
         "description": "A specialized accelerator card optimized for neural network training, offering breakthrough tensor throughput.",
         "long_description": "The NeuroMatrix A200 AI Accelerator is purpose-built for deep learning and AI research. With breakthrough tensor throughput, it accelerates neural network training and inference, enabling researchers and enterprises to handle massive datasets and complex models with unprecedented speed and efficiency.",
-        "image": ""
+        "image": "images/productimages/usbdrive.webp"
     },
     {
         "name": "Solaris Edge S5 Embedded Module",
@@ -29,7 +29,7 @@
         "performance": "Mid-range (IoT, robotics, edge inference)",
         "description": "Compact AI module for drones, smart cameras, and robotics, with low power consumption and high inference speed.",
         "long_description": "The Solaris Edge S5 Embedded Module is designed for edge computing applications such as IoT devices, robotics, and smart cameras. Its compact form factor and low power consumption make it ideal for mobile platforms, while its high inference speed ensures real-time decision-making in dynamic environments.",
-        "image": ""
+        "image": "images/productimages/camera.webp"
     },
     {
         "name": "TitaniumWave W7 Workstation GPU",
@@ -37,7 +37,7 @@
         "performance": "Professional (CAD, 3D rendering, simulations)",
         "description": "A workstation-class graphics card engineered for architects, engineers, and animators needing precision rendering.",
         "long_description": "The TitaniumWave W7 Workstation GPU is tailored for professionals in architecture, engineering, and animation. With optimized drivers and precision rendering capabilities, it supports CAD applications, complex simulations, and high-resolution 3D modeling, ensuring accuracy and reliability in mission-critical workflows.",
-        "image": ""
+        "image": "images/productimages/graphicscard.webp"
     },
     {
         "name": "ChronosDrive C1 Storage Accelerator",
@@ -45,7 +45,7 @@
         "performance": "High (ultra-fast NVMe throughput)",
         "description": "A PCIe-based storage accelerator that reduces latency in data-heavy workflows like video editing and scientific computing.",
         "long_description": "The ChronosDrive C1 Storage Accelerator enhances data-heavy workflows by reducing latency and maximizing NVMe throughput. Ideal for video editors, researchers, and professionals working with large datasets, it ensures faster load times, smoother playback, and efficient data processing across demanding applications.",
-        "image": ""
+        "image": "images/productimages/diskdrive.webp"
     },
     {
         "name": "HelixCore H12 Hybrid Processor",
@@ -53,7 +53,7 @@
         "performance": "Balanced (CPU+GPU fusion for mixed workloads)",
         "description": "A hybrid chip combining CPU and GPU cores on a single die, ideal for AI-enhanced productivity and gaming.",
         "long_description": "The HelixCore H12 Hybrid Processor integrates CPU and GPU cores into a single die, offering balanced performance for mixed workloads. It excels in AI-enhanced productivity tasks, gaming, and creative applications, providing versatility and efficiency for users who need both computational power and graphical performance.",
-        "image": ""
+        "image": "images/productimages/cpu.webp"
     },
     {
         "name": "SpectraVision V3 AR/VR Headset",
@@ -61,7 +61,7 @@
         "performance": "High (immersive AR/VR experiences)",
         "description": "A lightweight headset with ultra-low latency rendering and eye-tracking for realistic augmented and virtual reality.",
         "long_description": "The SpectraVision V3 AR/VR Headset delivers immersive augmented and virtual reality experiences with ultra-low latency rendering. Featuring advanced eye-tracking technology, it enhances realism and responsiveness, making it ideal for gaming, training simulations, and interactive design environments.",
-        "image": ""
+        "image": "images/productimages/smartphone.webp"
     },
     {
         "name": "PulseGrid P100 Data Center Switch",
@@ -69,7 +69,7 @@
         "performance": "Enterprise (high-bandwidth networking)",
         "description": "A next-gen data center switch optimized for GPU clusters, delivering ultra-low latency and massive throughput.",
         "long_description": "The PulseGrid P100 Data Center Switch is engineered for enterprise-scale networking. Optimized for GPU clusters and high-performance computing environments, it delivers ultra-low latency and massive throughput, ensuring seamless communication between servers and accelerators in demanding data center operations.",
-        "image": ""
+        "image": "images/productimages/server.webp"
     },
     {
         "name": "CryoFlux CF9 Cooling System",
@@ -77,7 +77,7 @@
         "performance": "Efficient (liquid cooling, thermal stability)",
         "description": "An advanced cooling solution using nano-fluid technology to keep high-performance chips stable under heavy loads.",
         "long_description": "The CryoFlux CF9 Cooling System leverages nano-fluid technology to provide efficient thermal management for high-performance chips. Designed for gamers, overclockers, and professionals, it ensures thermal stability under heavy loads, extending hardware lifespan and maintaining peak performance.",
-        "image": ""
+        "image": "images/productimages/aiocooler.webp"
     },
     {
         "name": "NovaStream N1 Cloud Console",
@@ -85,7 +85,7 @@
         "performance": "Consumer (cloud gaming, streaming)",
         "description": "A compact console that streams ultra-high fidelity games from the cloud with AI-enhanced upscaling.",
         "long_description": "The NovaStream N1 Cloud Console offers consumers access to ultra-high fidelity gaming and streaming directly from the cloud. With AI-enhanced upscaling, it delivers smooth visuals and responsive gameplay, making high-end gaming accessible without the need for expensive local hardware.",
-        "image": ""
+        "image": "images/productimages/motherboard.webp"
     },
     {
         "name": "LuminaCore L5 AI Laptop Chip",
@@ -93,7 +93,7 @@
         "performance": "Mid-range (AI-enhanced productivity)",
         "description": "A mobile processor with integrated AI cores for intelligent applications, battery optimization, and enhanced user experiences.",
         "long_description": "The LuminaCore L5 AI Laptop Chip integrates AI cores into a mobile processor, enabling intelligent applications and enhanced user experiences. It optimizes battery life while supporting productivity tasks, making it a strong choice for laptops that balance performance with efficiency.",
-        "image": ""
+        "image": "images/productimages/laptop.webp"
     },
     {
         "name": "Aurora Smartwatch X2",
@@ -101,7 +101,7 @@
         "performance": "High battery efficiency, seamless app integration",
         "description": "A sleek smartwatch with advanced health tracking.",
         "long_description": "The Aurora Smartwatch X2 combines modern design with powerful features. It offers continuous heart rate monitoring, GPS navigation, and a 7-day battery life. Its lightweight build and customizable watch faces make it ideal for both fitness enthusiasts and professionals.",
-        "image": ""
+        "image": "images/productimages/smartphone.webp"
     },
     {
         "name": "Nebula Noise-Canceling Headphones",
@@ -109,7 +109,7 @@
         "performance": "Premium audio quality, adaptive noise cancellation",
         "description": "Wireless headphones designed for immersive sound.",
         "long_description": "Nebula Noise-Canceling Headphones deliver studio-grade audio with adaptive noise cancellation technology. They feature 40 hours of playback time, fast charging, and plush ear cushions for maximum comfort. Perfect for travel, work, or relaxation.",
-        "image": ""
+        "image": "images/productimages/webcam.webp"
     },
     {
         "name": "Terra Ultra Laptop Stand",
@@ -117,6 +117,6 @@
         "performance": "Ergonomic design, durable aluminum build",
         "description": "A portable stand for laptops up to 17 inches.",
         "long_description": "The Terra Ultra Laptop Stand is engineered for stability and comfort. Its adjustable height and angle reduce strain during long work sessions. Crafted from lightweight aluminum, it folds flat for easy transport, making it a must-have accessory for remote workers and students.",
-        "image": ""
+        "image": "images/productimages/laptop.webp"
     }
 ]

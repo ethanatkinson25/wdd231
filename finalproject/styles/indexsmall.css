@@ -107,6 +107,16 @@ body {
     padding: 1rem;
 }
 
+.products p a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.products-body img,
+.partners-body img {
+    display: none;
+}
+
 .partners {
     background-image: url("https://raw.githubusercontent.com/ethanatkinson25/wdd231/main/finalproject/images/homeimages/serverroom.webp");
     padding: 1rem;
@@ -201,12 +211,18 @@ footer {
     animation-name: fade-in;
     animation-duration: 2s;
     border: 1px solid #fff;
+    text-align: center;
+}
+
+.product-card button {
+    background-color: var(--secondary-color);
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    margin-top: 0.5rem;
 }
 
 .products-section h2 {
     margin-left: 1rem;
 }
-
-/* .product-card img {
-    margin-top: 0.5rem;
-} */

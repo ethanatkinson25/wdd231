@@ -13,7 +13,7 @@
     main,
     nav,
     footer {
-        max-width: 1000px;
+        max-width: 1200px;
         margin: 0 auto;
     }
 
@@ -75,10 +75,27 @@
         padding: 1rem;
     }
 
+    .products-body {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
     .partners {
         background-image: none;
         border: 1px solid #fff;
         padding: 1rem;
+    }
+
+    .partners-body {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .products-body img,
+    .partners-body img {
+        display: inline;
     }
 
     /* ----------Products Page CSS ----------*/

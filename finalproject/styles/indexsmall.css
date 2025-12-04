@@ -158,6 +158,8 @@ footer {
     color: #fff;
     animation-name: fade-in;
     animation-duration: 2s;
+    width: 100%;
+    max-width: 400px;
 }
 
 .product-modal.fade-out {

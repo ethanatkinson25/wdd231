@@ -85,4 +85,12 @@
     .products-container {
         grid-template-columns: repeat(3, 1fr);
     }
+
+    .product-modal {
+        width: 90%;
+        position: fixed;
+        top: 50px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }

@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    --primary-color: #283F3B;
+    --secondary-color: #545454;
 }
 
 body {
@@ -138,4 +140,62 @@ footer {
     to {
         opacity: 1;
     }
+}
+
+@keyframes fade-out {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+/* ----------Products Page CSS ----------*/
+.product-modal {
+    background-color: black;
+    color: #fff;
+    animation-name: fade-in;
+    animation-duration: 2s;
+}
+
+.product-modal.fade-out {
+    animation-name: fade-out;
+    animation-duration: 2s;
+}
+
+.modal-content {
+    padding: 1rem;
+    background-color: var(--secondary-color);
+    color: #fff;
+    border: 2px solid #fff;
+    animation-name: fade-in;
+    animation-duration: 2s;
+}
+
+.modal-content.fade-out {
+    animation-name: fade-out;
+    animation-duration: 2s;
+}
+
+.close-button {
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 0.5rem;
+    line-height: 1;
+}
+
+.products-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.product-card {
+    background-color: var(--primary-color);
+    animation-name: fade-in;
+    animation-duration: 2s;
 }

@@ -80,4 +80,9 @@
         border: 1px solid #fff;
         padding: 1rem;
     }
+
+    /* ----------Products Page CSS ----------*/
+    .products-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }

@@ -29,7 +29,7 @@
 <body>
     <header>
         <div class="top-bar">
-            <h1><span>Vertex Hardware</span></h1>
+            <h1><span>Vertex Hardware - Buy</span></h1>
             <button id="hamburger-button" class="hamburger-button" aria-label="hamburger"></button>
         </div>
         <nav class="navigation" id="nav-bar">
@@ -41,26 +41,38 @@
         </nav>
     </header>
     <main>
-        <form>
-            <fieldset>
-                <legend>Purchase Form (required questions are marked with a *)</legend>
-                <label for="product-select">Select Product:</label>
-                <select id="product-select" name="product-select">
-                    <option value="">--Please choose an option--</option>
-                </select>
+        <div class="form-display">
+            <form>
+                <fieldset>
+                    <legend>Purchase Form (required questions are marked with a *)</legend>
+                    <label for="product-select">Select Product:</label>
+                    <select id="product-select" name="product-select">
+                        <option value="">--Please choose an option--</option>
+                    </select>
 
-                <label for="quantity">Quantity: *</label>
-                <input type="number" id="quantity" name="quantity" min="1" value="1" required>
+                    <label for="quantity">Quantity: *</label>
+                    <input type="number" id="quantity" name="quantity" min="1" value="1" required>
 
-                <label for="buyer-name">Name: *</label>
-                <input type="text" id="buyer-name" name="buyer-name" required>
+                    <label for="buyer-name">Name: *</label>
+                    <input type="text" id="buyer-name" name="buyer-name" required>
 
-                <label for="buyer-email">Email: *</label>
-                <input type="email" id="buyer-email" name="buyer-email" required>
+                    <label for="buyer-email">Email: *</label>
+                    <input type="email" id="buyer-email" name="buyer-email" required>
 
-                <button type="submit">Buy Now</button>
-            </fieldset>
-        </form>
+                    <button type="submit">Buy Now</button>
+                </fieldset>
+            </form>
+            <img src="images/buyimages/swirls.webp" alt="colorful swirls pattern" class="buy-page-image">
+        </div>
+        <div class="handshake-container">
+            <img src="images/buyimages/handshake.webp" alt="shaking hands">
+            <div class="handshake-text">
+                <h2>Thank you for your business!</h2>
+                <p>Your willingness to support us is more than appriciated! If you feel inclined, please share our page
+                    with
+                    your friends, family, or anyone!</p>
+            </div>
+        </div>
     </main>
     <footer>
         <div class="social-footer">

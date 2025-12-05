@@ -131,12 +131,13 @@
 
     .form-display {
         flex-direction: row;
+        justify-content: center;
         animation-name: fade-in;
         animation-duration: 3s;
     }
 
     .buy-page-image {
-        width: 600px;
+        width: 500px;
         height: auto;
         margin: 0.5rem;
         animation-name: fade-in;

@@ -122,24 +122,33 @@
     }
 
     /* ----------Buy Page----------*/
+
     fieldset {
         max-width: 40%;
+        animation-name: fade-in;
+        animation-duration: 3s;
     }
 
     .form-display {
         flex-direction: row;
+        animation-name: fade-in;
+        animation-duration: 3s;
     }
 
     .buy-page-image {
         width: 600px;
         height: auto;
         margin: 0.5rem;
+        animation-name: fade-in;
+        animation-duration: 3s;
     }
 
     .handshake-container {
         display: flex;
         justify-content: center;
         margin-top: 3rem;
+        animation-name: fade-in;
+        animation-duration: 3s;
     }
 
     .handshake-container img {

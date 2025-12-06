@@ -1,19 +1,9 @@
-const dataUrl = 'data/products.json';
+import { fetchProducts } from './filer.mjs';
+export { displayProducts };
 const container = document.getElementById('products-container');
 
-async function fetchProducts() {
-    try {
-        const response = await fetch(dataUrl);
-        const data = await response.json();
-        displayProducts(data);
-        return data.products;
-    } catch (error) {
-        console.error('Error fetching products:', error);
-        return [];
-    }
-}
-
 function displayProducts(products) {
+    container.innerHTML = '';
     products.forEach(product => {
         const productCard = document.createElement('div');
         productCard.classList.add('product-card');
@@ -25,6 +15,7 @@ function displayProducts(products) {
             <button class="open-modal">Learn More</button>
         `;
         container.appendChild(productCard);
+
         const modal = document.getElementById('product-modal');
         const openModalBtn = productCard.querySelector('.open-modal');
         openModalBtn.addEventListener('click', () => {
@@ -34,12 +25,13 @@ function displayProducts(products) {
                     <h2>${product.name}</h2>
                     <img src="${product.image}" alt="${product.name}" class="modal-image"/>
                     <p>${product.long_description}</p>
-                    <p><strong>Price:</strong> ${product.price}</p>
-                    <p><strong>Performance:</strong> ${product.performance}</p>
+                    <p>Price: ${product.price}</p>
+                    <p>Performance: ${product.performance}</p>
                 </div>
             `;
             modal.classList.add('product-modal');
             modal.showModal();
+
             const closeButton = modal.querySelector('.close-button');
             closeButton.addEventListener('click', () => {
                 modal.classList.add('fade-out');

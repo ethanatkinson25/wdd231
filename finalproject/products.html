@@ -23,7 +23,8 @@
     <title>Vertex Hardware - Products</title>
     <link rel="icon" type="image/x-icon" href="images/favicons/productsfavicon.ico">
     <script src="scripts/footer.js" defer></script>
-    <script src="scripts/displayproducts.js" defer></script>
+    <script src="scripts/displayproducts.js" type="module" defer></script>
+    <script src="scripts/filer.mjs" type="module" defer></script>
 </head>
 
 <body>
@@ -43,6 +44,9 @@
     <main>
         <section class="products-section">
             <h2>Our Products</h2>
+            <div class="products-controls">
+                <button id="filter-price-btn">Show: $1000+</button>
+            </div>
             <div id="products-container" class="products-container">
 
             </div>

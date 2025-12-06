@@ -143,6 +143,11 @@ footer {
     padding: 1rem;
 }
 
+footer a {
+    color: #fff;
+    text-decoration: underline;
+}
+
 @keyframes fade-in {
     from {
         opacity: 0;
